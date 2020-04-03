@@ -9,11 +9,14 @@ version = "0.1.1"
 
 repositories {
     mavenCentral()
+    maven(url = "https://jitpack.io")
 }
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
     implementation("org.jsoup:jsoup:1.12.1")
+    testImplementation("dev.reimer:java-ktx:0.1.2")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.6.0")
 }
 
 lateinit var javadocJar: TaskProvider<Jar>
@@ -26,6 +29,10 @@ tasks {
 
     compileTestKotlin {
         kotlinOptions.jvmTarget = "1.8"
+    }
+
+    test {
+        useJUnitPlatform()
     }
 
     // Include project license in generated JARs.
