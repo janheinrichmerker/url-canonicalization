@@ -1,3 +1,5 @@
+package dev.reimer.url.canonical
+
 import org.jsoup.Connection
 import org.jsoup.helper.HttpConnection
 import org.jsoup.nodes.Document
