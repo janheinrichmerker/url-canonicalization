@@ -1,5 +1,5 @@
-[![GitHub Actions](https://img.shields.io/github/workflow/status/reimersoftware/url-canonicalization/CI?style=flat-square)](https://github.com/reimersoftware/url-canonicalization/actions?query=workflow%3A"CI")
-[![JitPack](https://img.shields.io/jitpack/v/github/reimersoftware/url-canonicalization?style=flat-square)](https://jitpack.io/#dev.reimer/url-canonicalization)
+[![GitHub Actions](https://img.shields.io/github/actions/workflow/status/heinrichreimer/url-canonicalization/ci.yml?branch=master&style=flat-square)](https://github.com/heinrichreimer/url-canonicalization/actions/workflows/ci.yml)
+[![JitPack](https://img.shields.io/jitpack/v/github/heinrichreimer/url-canonicalization?style=flat-square)](https://jitpack.io/#dev.reimer/url-canonicalization)
 
 # 🔗 url-canonicalization<sup>[α](#status-α)</sup>
 
