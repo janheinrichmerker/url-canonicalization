@@ -7,17 +7,17 @@ class CanonicalizationTest {
 
     private companion object {
        private val DOG_BREEDS = "https://en.m.wikipedia.org/wiki/Dog_breeds".toURL()
-       private val DOG_BREED = "https://en.m.wikipedia.org/wiki/Dog_breed".toURL()
+       private val LIST_OF_DOG_BREEDS = "https://en.m.wikipedia.org/wiki/List_of_dog_breeds".toURL()
     }
 
     @Test
     fun `Can canonicalize Dog Breeds`() {
-        assert(DOG_BREEDS.canonicalize() == DOG_BREED)
+        assert(DOG_BREEDS.canonicalize() == LIST_OF_DOG_BREEDS)
     }
 
     @Test
     fun `Dog breed is canonical`() {
-        assert(DOG_BREED.isCanonical())
+        assert(LIST_OF_DOG_BREEDS.isCanonical())
     }
 
     @Test
