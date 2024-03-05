@@ -15,7 +15,7 @@ repositories {
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
     implementation("org.jsoup:jsoup:1.17.2")
-    testImplementation("dev.reimer:java-ktx:0.1.2")
+    testImplementation("dev.reimer:java-ktx:0.1.3")
     testImplementation("org.junit.jupiter:junit-jupiter:5.10.2")
 }
 
