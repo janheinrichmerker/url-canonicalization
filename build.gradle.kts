@@ -18,7 +18,7 @@ dependencies {
     implementation(kotlin("stdlib"))
     implementation("org.jsoup:jsoup:1.18.1")
     testImplementation("dev.reimer:java-ktx:0.1.3")
-    testImplementation("org.junit.jupiter:junit-jupiter:5.11.0")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.11.1")
 }
 
 lateinit var javadocJar: TaskProvider<Jar>
