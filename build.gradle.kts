@@ -16,7 +16,7 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib"))
-    implementation("org.jsoup:jsoup:1.18.3")
+    implementation("org.jsoup:jsoup:1.19.1")
     testImplementation("dev.reimer:java-ktx:0.1.3")
     testImplementation("org.junit.jupiter:junit-jupiter:5.11.3")
 }
